@@ -1,0 +1,246 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto', sans-serif;
+}
+.bookingcom{
+    font-size: 30px;
+    cursor: pointer;
+}
+.menu{
+    display: flex;
+    width: 700px;
+    justify-content:space-evenly;
+    padding: 20px;
+    align-items: center;
+}
+.menubox{
+    padding: 5px;
+}
+.menubox:hover{
+    background-color:rgb(70, 97, 170);
+    cursor: pointer;
+}
+.flag{
+    width:35px;
+    height:35px;
+}
+.booking{
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+.bookings{
+    background-color:#003b95;
+    color: whitesmoke;
+    height:59vh;
+}
+#register,#signin{
+    padding:0px;
+}
+.register_box,.signin_box{
+    cursor: pointer;
+}
+.register_box,.signin_box{
+    padding-left:15px;
+    padding-right:15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: blue;
+}
+.stays{
+    display: flex;
+    margin-left: 130px;
+    margin-right: 130px;
+    justify-content: flex-start;
+}
+.staybox{
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px 5px;
+}
+.staybox:hover{
+        background-color:rgb(70, 97, 170);
+        cursor: pointer;
+        border-radius: 45%;
+}
+#stays{
+    background-color: rgb(70,97,170);
+    border: 1px solid white;
+    border-radius: 45%;
+}
+.next{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.findbox{
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 60px;
+}
+.search{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    background-color: gold;
+    padding: 3px;
+}
+input{
+    width:300px;
+    height: 50px;;
+    margin-left:2px;
+    margin-right: 2px;
+}
+#searchbutton{
+    background-color:mediumblue;
+    color: white;
+    width:150px;
+    font-size: 25px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.searchbox{
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+#where{
+    width:300px;
+    text-align: center;
+    cursor:auto;
+}
+#look,#work{
+    width:20px;
+    height:14px;
+    margin-top: 20px;
+}
+#workbox{
+    margin-right: 50px;
+}
+.look{
+    margin-top: 30px;
+    margin-left: 150px;
+}
+.offerbox{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.offers{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.picnic{
+    float: right;
+}
+.stay{
+    background-color: mediumblue;
+    color: white;
+    height:40px;
+    width:100px;
+    margin-top: 20px;
+}
+.plane{
+    float:right;
+}
+.para{
+    margin-top: 10px;
+}
+.aero{
+    background-color: mediumblue;
+    color: white;
+    height:40px;
+    width:150px;
+    margin-top: 20px;
+}
+.long{
+    width:450px;
+}
+.dream{
+    margin-left: 50px;
+    width: 500px;;
+}
+.long,.dream{
+    padding:10px;
+    border:2px solid rgb(243, 217, 217);
+}
+.vacation{
+    display:flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top:10px;
+    justify-content: space-evenl;
+}
+.explore{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.explores{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.word{
+    font-weight: bold;
+}
+.box{
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+    padding: 40px;
+    width: 1050px;
+    flex-wrap: wrap;
+    border:5px dotted crimson ;
+    margin-bottom: -30px;
+    transition-duration: 5s;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: #003b95;
+    color: whitesmoke;
+}
+.boxes:hover{
+    transform: scale(1.15);
+}
+.boxes{
+    padding-right:5px;
+    padding-left: 5px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.hi{
+    border:2px dashed white;
+}
+.climax{
+    margin-top: 100px;
+    background-color:darkblue;
+    color: white;
+    text-align: center;
+}
+.climaxbox{
+    margin-top: 30px;
+    font-size: 35px;
+}
+.email{
+    font-size: 20px;
+}
+.subscribe{
+    background-color: mediumblue;
+    color:white;
+    height: 50px;
+    width:80px;
+
+}
+.privacy{
+    position: fixed;
+    bottom: 0%;
+    background-color: red;
+    color: yellow;
+}
